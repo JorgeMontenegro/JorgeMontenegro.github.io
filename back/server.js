@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const config = 'mongodb://localhost:27017/alunideas';
+const config = process.env.MONGODB_URI || 'mongodb://localhost:27017/alunideas';
+const port = process.env.PORT || 8081
 
 
 let userRouters = require('./routers/userRouters.js');
@@ -25,4 +26,4 @@ app.use(bodyParser.json());
 app.use('/user', userRouters);
 app.use('/policy', policyRouters);
 
-app.listen(8081);
+app.listen(port);
