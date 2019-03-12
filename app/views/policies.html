@@ -1,0 +1,36 @@
+<div class="row">
+	<div class="col-md-12 btnLink">
+		<center>
+			<a ui-sref="index" ui-sref-active="active"><button class="btn btn-primary btn-lg">Volver</button></a>
+		</center>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<input type="text" class="form-control" ng-model="search" placeholder="Filtro">
+	</div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+    	<table class="table">
+    		<thead>
+    			<th>Cédula</th>
+    			<th>Nombre</th>
+    			<th>Número de póliza</th>
+    			<th>Tipo de póliza</th>
+    			<th>Valor de la póliza</th>
+    		</thead>
+    		<tbody>
+    			<tr ng-repeat="user in users|filter:search">
+    				<td>{{user.document}}</td>
+    				<td>{{user.name}}</td>
+    				<td>{{user.policy_number}}</td>
+    				<td>{{user.type_policy}}</td>
+    				<td>${{user.policy_value | number: 1}}</td>
+    			</tr>
+    		</tbody>
+    	</table>    
+    </div>
+</div>

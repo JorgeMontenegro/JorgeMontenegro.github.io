@@ -1,0 +1,47 @@
+input.placeholder {
+    text-align: center;
+}
+
+.btnLink {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.polizaContainer {
+	align-content: center;
+}
+
+.containerTitle {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: center;
+	background-color: #C0DBB6;
+	border-width: 1px 1px 0px 1px;
+	border-style: solid
+}
+
+.polizaForm {
+	padding: 10px;
+	text-align: center;
+	background-color: #E8F2E4;
+	border: solid 1px #000000
+}
+
+.polizaForm input, select {
+	text-align: center;
+	text-align-last:center;
+	border: solid 1px #000000
+}
+
+.polizaForm select {
+	border: solid 1px #000000
+}
+
+.polizaForm button {
+	background-color: #7A7D7A;
+	width: 300px;
+}
+
+.polizaForm button:hover {
+	background-color: #BDC2BB;
+}

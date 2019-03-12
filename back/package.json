@@ -1,0 +1,20 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "versión de prueba",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monte07jul@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.9",
+    "msnodesqlv8": "^0.6.12",
+    "mssql": "^4.3.1"
+  }
+}
