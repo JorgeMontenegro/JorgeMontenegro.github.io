@@ -4,6 +4,7 @@
   "description": "versión de prueba",
   "main": "app.js",
   "scripts": {
+	"start":"node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "monte07jul@hotmail.com",
