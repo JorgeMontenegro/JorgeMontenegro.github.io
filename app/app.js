@@ -3,7 +3,7 @@ var app = angular.module('policy', ['ui.router']);
 
 //configuración de las rutas http
 app.constant('settings', {
-	baseServices: 'https://poliza-back.herokuapp.com/'
+	baseServices: 'https://back-poliza.herokuapp.com/'
 });
 
 //configuración de las rutas internas mediante angular y angular ui-router
