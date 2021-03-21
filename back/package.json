@@ -14,7 +14,7 @@
     "express": "^4.16.4",
     "jade": "^1.11.0",
     "mongodb": "^3.1.13",
-    "mongoose": "^5.4.9",
+    "mongoose": "^5.7.5",
     "msnodesqlv8": "^0.6.12",
     "mssql": "^4.3.1"
   }
